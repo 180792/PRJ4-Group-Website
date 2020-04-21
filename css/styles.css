@@ -73,9 +73,6 @@ body {
 padding: 2em;
 }
 
-.btn{
-	margin-left:40%;
-}
 
 .heading-ingredience{ 
 	color: navajowhite;
@@ -86,3 +83,133 @@ padding: 2em;
     padding: 0.3em;
     text-align: center;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
+
+
+.title1 {
+	color: #000000;
+	font-size: 2.5em;
+	font-family: 'Satisfy', cursive;
+	width: 500px;
+	border-bottom: 2px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+.birdie {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-family:  Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 5vh;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  color: #ffffff;
+  height: 80vh;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.btn{
+	border-color:#DB6200;
+	color: #DB6200;
+	background-color: #fff;
+}
+
+.btn:hover{
+	background: #DB6200;
+	border-color:#DB6200;
+}
+
+.btn2{
+	width: 100px !important;
+	height: 50px !important;
+	text-align: center;
+	border-color:#DB6200;
+	color: #fff;
+	background-color: #DB6200;
+	border-radius: 4px;
+	transition: 0.2s;
+	border:none
+}
+
+.btn2:hover{
+	background-color:#BE5500;
+	text-decoration: none;
+	border: none;
+	box-decoration: none;
+}
+
+.carousel-inner > .item > img {
+      width:100%; 
+      height:50vh !important;
+    }
+
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:14vw;
+  right:9.25vw;
+  text-align:center;
+}
+
+
+.toptext{
+	color: white;
+	font-size: 3.2vw;
+	font-family: 'Satisfy', cursive;
+}
+
+.bottomtext{
+	font-size: 1.8vw;
+}
+
+.navbar-brand{
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+}
+
+.navbar{
+	height: 10vh;
+}
+
+.nav-item{
+	font-size:20px;
+}
