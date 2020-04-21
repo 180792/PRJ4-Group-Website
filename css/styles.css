@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background-image: url("../images/background.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center;
+}
+
+
+.my-class  {
+    color: navajowhite;
+	margin-right: auto;
+    border-bottom:solid #A4999A;
+	font-size: 30px;
+	width: 270px;
+    padding: 0.3em;
+    text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+
+.card{ 
+	border: 0;
+    background-color: transparent;
+}
+
+
+
+.card-title{
+	text-align: center;
+	color: black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+	font-size: 40px;
+}
+
+
+.card-body{
+	background-color: navajowhite;
+}
+
+
+
+  p { color: white;
+	  font-size: 20px;
+	  
+	  padding: 0.6em;
+	  font-family: 'Montserrat', sans-serif;
+}
+
+.ingredience-img{
+padding: 2em;
+}
+
+.btn{
+	margin-left:40%;
+}
+
+.heading-ingredience{ 
+	color: navajowhite;
+	margin-right: auto;
+    border-bottom:solid #A4999A;
+	font-size: 30px;
+	width: 270px;
+    padding: 0.3em;
+    text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"}
