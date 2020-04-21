@@ -17,9 +17,10 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: 'Roboto', sans-serif;
 	vertical-align: baseline;
 }
+
 
 body {
 	background-image: url("../images/background.jpg");
@@ -27,6 +28,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-position: center;
+	width: 100%;
 }
 
 
@@ -41,32 +43,12 @@ body {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
 }
 
-.card{ 
-	border: 0;
-    background-color: transparent;
-}
 
 
-
-.card-title{
-	text-align: center;
-	color: black;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
-	font-size: 40px;
-}
-
-
-.card-body{
-	background-color: navajowhite;
-}
-
-
-
-  p { color: white;
-	  font-size: 20px;
+  p { color: #000;
+	  font-size: 19px;
 	  
 	  padding: 0.6em;
-	  font-family: 'Montserrat', sans-serif;
 }
 
 .ingredience-img{
@@ -147,30 +129,31 @@ header p {
 }
 
 .btn{
-	border-color:#DB6200;
-	color: #DB6200;
-	background-color: #fff;
+	border-color:#006d77;
+	color: #fff;
+	background-color: #006d77;
 }
 
 .btn:hover{
-	background: #DB6200;
-	border-color:#DB6200;
+	background:#00555D;
+	border-color:#00555D;
 }
 
 .btn2{
-	width: 100px !important;
-	height: 50px !important;
+	width: 7.15vw !important;
+	height: 3.57vw !important;
 	text-align: center;
-	border-color:#DB6200;
+	border-color:#e29578;
 	color: #fff;
-	background-color: #DB6200;
+	background-color: #e29578;
 	border-radius: 4px;
 	transition: 0.2s;
-	border:none
+	border:none;
+	font-size: 1.3vw;
 }
 
 .btn2:hover{
-	background-color:#BE5500;
+	background-color:#CC7E61;
 	text-decoration: none;
 	border: none;
 	box-decoration: none;
@@ -185,31 +168,86 @@ header p {
   color:#fff;
   position:absolute;
   z-index:12;
-  top:14vw;
-  right:9.25vw;
+  top:10vw;
+  right:7vw;
   text-align:center;
 }
 
 
 .toptext{
 	color: white;
-	font-size: 3.2vw;
-	font-family: 'Satisfy', cursive;
+	font-size: 2.5vw;
+	font-family: 'Dancing Script', cursive;
 }
 
 .bottomtext{
-	font-size: 1.8vw;
+	font-size: 1.3vw;
+	font-family: 'Roboto', sans-serif;
 }
 
 .navbar-brand{
-	font-family: 'Satisfy', cursive;
-	font-size: 25px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	font-color: #fff;
+	position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 .navbar{
 	height: 10vh;
+	position: absolute;
 }
 
 .nav-item{
 	font-size:20px;
+}
+
+.navbar-nav{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav > li:nth-child(3) {
+  padding-left:20px;
+  padding-right:140px;
+}
+
+.navbar-nav > li:nth-child(4) {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.container-top{
+	height:120px;
+	width: 100%;
+}
+
+.container-intro{
+	background-color: #ffddd2;
+	height: 300px;
+	position: relative;
+	width: 100%;
+}
+
+.logo{
+	position: absolute;
+    top: -20%;
+}
+
+.h2-intro{
+	font-weight:1000;
+	font-size: 25px;
+}
+
+.card{
+	border: none;
 }
