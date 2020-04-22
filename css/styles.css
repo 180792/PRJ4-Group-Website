@@ -43,7 +43,12 @@ time, mark, audio, video {
 	  padding: 0.6em;
 }
 
-
+h1{
+	color: #000;
+	font-size: 19px;
+	padding: 0.6em;
+	text-align: justify;
+}
 
 
 p {
@@ -313,3 +318,69 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 	font-size: 100px;
 	position:relative;
 }
+
+hr{
+background: white;	
+}
+
+.contact-form{
+background-color:#EDF6F9;
+color:black;
+margin-top: 5px;
+margin-bottom: 50px;
+margin-right: none;
+padding: 20px;
+}
+
+input[type=text] {
+  border: none;
+  background-color: #EDF6F9;
+  border-bottom: 2px solid #E29578;
+}
+
+input[type=text]:focus {
+  outline: none;
+  background-color: #EDF6F9;
+} 
+	
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: #EDF6F9;
+  resize: none;
+}	
+	
+.form-control{
+  border: none;
+  background-color: #EDF6F9;
+  border-bottom: 2px solid #E29578;
+}	
+	
+.form-control:focus{
+  outline: none;
+  background-color: #EDF6F9; 
+}
+	
+#map-container-google-11{
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
