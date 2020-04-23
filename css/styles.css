@@ -346,13 +346,13 @@ textarea {
   color: #FFFFFF;
 }	
 	
-.form-control{
+.form-control-contact{
   border: none;
   background-color: #006D77;
   border-bottom: 2px solid #fff;
 }	
 	
-.form-control:focus{
+.form-control-contact:focus{
   outline: none;
   background-color: #006D77; 
 }
@@ -462,6 +462,9 @@ padding: 0.1em !important;
 
 #comment {
   color: #fff;
+  border: none;
+  background-color: #006D77;
+  border-bottom: 2px solid #fff;
 }
 
 .social-media-contact{
