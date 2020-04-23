@@ -371,7 +371,7 @@ textarea {
 .crew-header{
 	font-family: 'Dancing Script', cursive;
 	 font-size: 3em;
-	margin-bottom: -50px;
+	margin-bottom: -45px;
 	z-index: 1;
 	color: #00BFB2;
 	text-align:center;
@@ -388,4 +388,9 @@ textarea {
 
 .vision{
 	font-weight:700;
+}
+
+.about-txt{
+	margin:auto;
+	text-align: center;
 }
