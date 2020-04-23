@@ -330,6 +330,7 @@ input[type=text] {
   border: none;
   background-color: #006D77;
   border-bottom: 2px solid #fff;
+  color: #FFFFFF;
 }
 
 input[type=text]:focus {
