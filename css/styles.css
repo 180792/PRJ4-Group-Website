@@ -319,10 +319,10 @@ background: white;
 .contact-form{
 background-color:#006D77;
 color:black;
-margin-top: 40px;
+margin-top: 2em;
 align-content: center;
 margin-right: none;
-margin-bottom: 10px;
+margin-bottom: 0.5em;
 padding: 20px;
 }
 
@@ -359,7 +359,7 @@ textarea {
 }
 	
 #map-container-google-11{
-	margin-top: 120px;
+	margin-top: 6em;
 }
 
 .crew-title{
@@ -469,9 +469,9 @@ padding: 0.1em !important;
 }
 
 .social-media-contact{
-	margin-top: 120px;
+	margin-top: 6em;
 	background-color: #f2f3f4;
-	margin-bottom: 110px;
+	margin-bottom: 5.5em;
 }
 
 #fb-contact{
