@@ -108,8 +108,8 @@ header p {
 }
 
 .btn2{
-	width: 7.15vw !important;
-	height: 3.57vw !important;
+	width: 5em !important;
+	height: 2.5em !important;
 	text-align: center;
 	border-color:#e29578;
 	color: #fff;
@@ -117,7 +117,7 @@ header p {
 	border-radius: 4px;
 	transition: 0.2s;
 	border:none;
-	font-size: 1.3vw;
+	font-size: 0.9em;
 }
 
 .btn2:hover{
@@ -229,14 +229,16 @@ header p {
 
 .container-intro{
 	background-color: #ffddd2;
-	height: 300px;
-	position: relative;
+
 	width: 100%;
 }
 
 .logo{
-	position: absolute;
-    top: -20%;
+    height: 300px;
+}
+
+.logo-image{
+	top: -20%;
 }
 
 .h2-intro{
@@ -274,7 +276,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 .social{
 	font-family: 'Dancing Script', cursive;
 	color: #EDF6F9;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 .container-copyright{
@@ -283,10 +285,10 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 }
 
 .cpr{
-	font-size: 12px;
+	font-size: 0.6em;
 	margin-left: auto;
 	margin-right: auto;
-	align-self: center;
+	text-align: center;
 	font-style: oblique;
 	color: #EDF6F9;
 }
@@ -393,4 +395,31 @@ textarea {
 .about-txt{
 	margin:auto;
 	text-align: center;
+}
+
+
+
+.bg{
+	width:100%;
+	z-index:0;
+	margin-bottom: -10px;
+}
+
+.mission{
+	margin-left: auto;
+	margin-right: auto;
+	left:0;
+	right:0;
+	margin-bottom:70px;
+	z-index:1;
+	
+}
+
+.mission > p{
+	text-align:center;
+}
+
+.mission > h1{
+	text-align:center;
+	font-weight: 700;
 }
