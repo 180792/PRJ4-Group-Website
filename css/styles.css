@@ -307,17 +307,8 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
   text-align:center;
 }
 
-.container-about-title{
-	height:60px;
-	background-color: #E29578; 
-	position:relative;
-}
 
-.about-title{
-	font-family:"Dancing Script", cursive;
-	font-size: 100px;
-	position:relative;
-}
+
 
 hr{
 background: white;	
