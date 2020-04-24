@@ -572,3 +572,64 @@ padding: 0.1em !important;
 #peter{
 	margin-top: 24px;
 }
+
+h-news{
+	color: black;
+	font-size: 3em;
+	text-align: center;
+	border-bottom: medium solid black;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight:600;
+}
+
+.row-news{
+	align-content: center;
+		margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h-date{
+	align-content: center;
+	text-align: center;
+	color: black;
+	font-weight: 300;
+	font-size: 1.2em;
+	
+}
+
+h-news-article-title{
+	align-content: center;
+	font-size: 1.7em;
+	font-weight: bold;
+	
+}
+
+.news-block{
+	text-align: center;
+	border-right: thin solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
