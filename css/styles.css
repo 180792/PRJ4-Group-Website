@@ -119,16 +119,22 @@ header p {
 	border:none;
 	font-size: 0.9em;
 	text-decoration: none;
-	border: none;
 	box-decoration: none;
 }
 
 .btn2:hover{
-	background-color:#CC7E61;
+	background-color:#CC7E61 ;
 	text-decoration: none;
 	border: none;
 	box-decoration: none;
 }
+
+.btn2:focus,.btn2:active {
+   outline: none !important;
+   box-shadow: none !important;
+	background-color: #CC7E61 !important;
+}
+
 
 
 .carousel-inner > .item > img {
