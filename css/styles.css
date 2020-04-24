@@ -644,9 +644,16 @@ a:active {
   text-decoration: underline;
 }
 
+.h-destination{
+	color: #006D77;
+	font-size: 2em;
+	text-align: center;
+	font-weight:700;
+}
 
-
-
+.t-destination{
+	text-align: justify;
+}
 
 
 
