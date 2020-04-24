@@ -167,7 +167,7 @@ header p {
 .navbar-brand{
 	font-family: 'Dancing Script', cursive;
 	font-size: 35px;
-	color: #fff;
+	color: #fff !important;
 	position: absolute;
 	z-index: 1;
     left: 50%;
@@ -175,7 +175,7 @@ header p {
 }
 
 .navbar-brand:hover{
-	color: #FFDDD2;
+	color: #FFDDD2 !important;
 }
 
 
